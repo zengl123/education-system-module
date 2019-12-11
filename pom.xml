@@ -7,6 +7,7 @@
     <modules>
         <module>education-system-portal</module>
         <module>education-system-management</module>
+        <module>education-system-common</module>
     </modules>
 
     <parent>
@@ -28,7 +29,11 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <artifactId>education-system-common</artifactId>
+                <groupId>com.edu</groupId>
+                <version>1.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
